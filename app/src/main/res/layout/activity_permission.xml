@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    tools:context=".Permission_Activity">
+
+        <LinearLayout
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_width="300dp"
+            android:background="@drawable/permission_background"
+            android:elevation="8dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="300dp">
+
+                <!-- Location Permission Switch -->
+                <Switch
+                    android:id="@+id/switch_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Location Permission"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/permission_background"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_alignParentStart="true"
+                    android:checked="false" />
+
+                <!-- Read External Storage Permission Switch -->
+                <Switch
+                    android:id="@+id/switch_read_external_storage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/permission_background"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    android:layout_marginHorizontal="10dp"
+
+                    android:text="Read External Storage Permission"
+                    android:layout_below="@+id/switch_location"
+                    android:layout_alignParentStart="true"
+                    android:checked="false" />
+
+                <!-- Camera Permission Switch -->
+                <Switch
+                    android:id="@+id/switch_camera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="Camera Permission"
+                    android:background="@drawable/permission_background"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    android:layout_marginHorizontal="10dp"
+
+                    android:layout_below="@+id/switch_read_external_storage"
+                    android:layout_alignParentStart="true"
+                    android:checked="false" />
+
+                <!-- Button to Request Permissions -->
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_request_permissions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/input_text_bg"
+                    android:backgroundTint="@color/aqua"
+                    android:text="Next"
+                    android:layout_marginHorizontal="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/passwordET"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cnicbacktv"
+                    tools:ignore="NotSibling" />
+
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

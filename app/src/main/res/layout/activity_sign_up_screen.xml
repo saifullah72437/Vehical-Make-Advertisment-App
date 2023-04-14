@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_Up_Screen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Name"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contactEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Contact"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Email"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Password"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/vehicleNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/vehicleNumberEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Vehicle Number"
+            android:paddingBottom="5dp"
+            android:inputType="number"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/vehicleModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/vehicleModelEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Vehicle Model"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/vehicleColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/vehicleColorEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="vehicleColor"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/vehicleMake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/input_text_bg"
+        app:boxBackgroundMode="outline">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/vehicleMakeEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:hint="Vehicle Make"
+            android:paddingBottom="5dp"
+            android:inputType="text"
+            android:textColor="@color/black" />
+       </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Take Cnic front and back image"
+            android:fontFamily="@font/roboto_black"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginHorizontal="20dp"
+       android:layout_marginTop="10dp">
+
+       <com.google.android.material.imageview.ShapeableImageView
+           android:id="@+id/cnicFront"
+           android:layout_width="120dp"
+           android:layout_height="120dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/placeholder"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:shapeAppearanceOverlay="@style/ImageViewShapeAppearanceOverlay" />
+
+       <ImageView
+           android:id="@+id/frontAdd"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/addbtn"
+           app:layout_constraintEnd_toEndOf="@+id/cnicFront"
+           app:layout_constraintStart_toStartOf="@+id/cnicFront"
+           app:layout_constraintTop_toTopOf="@id/cnicFront"
+           app:layout_constraintBottom_toBottomOf="@id/cnicFront"/>
+
+       <com.google.android.material.imageview.ShapeableImageView
+           android:id="@+id/cnicback"
+           android:layout_width="120dp"
+           android:layout_height="120dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/placeholder"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:shapeAppearanceOverlay="@style/ImageViewShapeAppearanceOverlay" />
+
+       <ImageView
+           android:id="@+id/backAdd"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/addbtn"
+           app:layout_constraintEnd_toEndOf="@+id/cnicback"
+           app:layout_constraintStart_toStartOf="@+id/cnicback"
+           app:layout_constraintTop_toTopOf="@id/cnicback"
+           app:layout_constraintBottom_toBottomOf="@id/cnicback"/>
+       <TextView
+
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Front Side"
+           app:layout_constraintTop_toBottomOf="@id/cnicFront"
+           app:layout_constraintStart_toStartOf="@id/cnicFront"
+           app:layout_constraintEnd_toEndOf="@id/cnicFront" />
+       <TextView
+           android:id="@+id/cnicbacktv"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Back Side"
+           app:layout_constraintTop_toBottomOf="@id/cnicback"
+           app:layout_constraintStart_toStartOf="@id/cnicback"
+           app:layout_constraintEnd_toEndOf="@id/cnicback" />
+       <androidx.appcompat.widget.AppCompatButton
+           android:id="@+id/signUp"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="24dp"
+           android:background="@drawable/input_text_bg"
+           android:backgroundTint="@color/aqua"
+           android:text="Sign Up"
+           android:textColor="@color/white"
+           android:layout_marginBottom="20dp"
+           android:textSize="18sp"
+           app:layout_constraintBottom_toTopOf="@+id/passwordET"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.5"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/cnicbacktv"
+           tools:ignore="NotSibling" />
+
+       <TextView
+           android:id="@+id/textView9"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Already have an account?"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@id/signUp"/>
+
+       <TextView
+           android:id="@+id/goToLogIn"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginBottom="8dp"
+           android:text="Log In"
+           android:textColor="@color/orange"
+           android:textSize="16sp"
+           app:layout_constraintBottom_toBottomOf="@id/textView9"
+           app:layout_constraintTop_toTopOf="@id/textView9"
+           app:layout_constraintHorizontal_bias="0.5"
+           app:layout_constraintStart_toEndOf="@+id/textView9" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
